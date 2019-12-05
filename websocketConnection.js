@@ -98,13 +98,13 @@ $(function() {
         if (value.twitch)
         links += `<li><h3><a class='twitch' href='https://twitch.tv/${value.twitch}' target='_blank'>Twitch</a></h3></li>`
         if (value.youtube)
-        links += `<li><h3><a class='youtube' href='https://youtube.com/${value.twitch}' target='_blank'>YouTube</a></h3></li>`
+        links += `<li><h3><a class='youtube' href='https://youtube.com/${value.youtube}' target='_blank'>YouTube</a></h3></li>`
         if (value.twitter)
-        links += `<li><h3><a class='twitter' href='https://twitter.com/${value.twitch}' target='_blank'>Twitter</a></h3></li>`
+        links += `<li><h3><a class='twitter' href='https://twitter.com/${value.twitter}' target='_blank'>Twitter</a></h3></li>`
         if (value.instagram)
-        links += `<li><h3><a class='instagram' href='https://instagram.com/${value.twitch}' target='_blank'>Instagram</a></h3></li>`
+        links += `<li><h3><a class='instagram' href='https://instagram.com/${value.instagram}' target='_blank'>Instagram</a></h3></li>`
         if (value.facebook)
-        links += `<li><h3><a class='facebook' href='https://facebook.com/${value.twitch}' target='_blank'>Facebook</a></h3></li>`
+        links += `<li><h3><a class='facebook' href='https://facebook.com/${value.facebook}' target='_blank'>Facebook</a></h3></li>`
         $("#main").append(
             `<div class='creator bounce-up' data-streamer=${value.twitch}>`
             + `<div class='image-adjust'><img src='https://twitter.com/${value.twitter}/profile_image?size=original' /></div>`
@@ -120,13 +120,13 @@ $(function() {
         if (value.twitch)
         links += `<li><h3><a class='twitch' href='https://twitch.tv/${value.twitch}' target='_blank'>Twitch</a></h3></li>`
         if (value.youtube)
-        links += `<li><h3><a class='youtube' href='https://youtube.com/${value.twitch}' target='_blank'>YouTube</a></h3></li>`
+        links += `<li><h3><a class='youtube' href='https://youtube.com/${value.youtube}' target='_blank'>YouTube</a></h3></li>`
         if (value.twitter)
-        links += `<li><h3><a class='twitter' href='https://twitter.com/${value.twitch}' target='_blank'>Twitter</a></h3></li>`
+        links += `<li><h3><a class='twitter' href='https://twitter.com/${value.twitter}' target='_blank'>Twitter</a></h3></li>`
         if (value.instagram)
-        links += `<li><h3><a class='instagram' href='https://instagram.com/${value.twitch}' target='_blank'>Instagram</a></h3></li>`
+        links += `<li><h3><a class='instagram' href='https://instagram.com/${value.instagram}' target='_blank'>Instagram</a></h3></li>`
         if (value.facebook)
-        links += `<li><h3><a class='facebook' href='https://facebook.com/${value.twitch}' target='_blank'>Facebook</a></h3></li>`
+        links += `<li><h3><a class='facebook' href='https://facebook.com/${value.facebook}' target='_blank'>Facebook</a></h3></li>`
         $("#side").append(
             `<div class='creator bounce-up' data-streamer=${value.twitch}>`
             + `<div class='image-adjust'><img src='https://twitter.com/${value.twitter}/profile_image?size=original' /></div>`
